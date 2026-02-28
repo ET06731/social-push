@@ -25,7 +25,7 @@ self-evolution 方便维护，页面变化后可自行修复
 - 🔐 **自动保存登录状态** - 使用 `--state` 参数保持会话，一次登录永久有效
 - 👀 **可视化操作** - 浏览器对用户可见（`--headed` 模式），方便调试和监控
 - 🛡️ **安全设计** - 仅暂存草稿，不自动发布，由用户最终确认
-- 🎯 **多平台支持** - 已支持小红书（图文/长文）、X/Twitter，轻松扩展更多平台
+- 🎯 **多平台支持** - 已支持小红书（图文/长文）、X/Twitter、知乎、微博、微信公众号、掘金，轻松扩展更多平台
 
 
 ## 🌐 支持平台
@@ -40,6 +40,7 @@ self-evolution 方便维护，页面变化后可自行修复
 | <img src="https://cdn.simpleicons.org/zhihu/0084FF" alt="知乎" width="20" height="20"/> 知乎 | 想法 | ✅ |
 | <img src="https://cdn.simpleicons.org/sinaweibo/E6162D" alt="微博" width="20" height="20"/> 微博 | 微博 | ✅ |
 | <img src="https://cdn.simpleicons.org/wechat/07C160" alt="微信" width="20" height="20"/> 微信公众号 | 文章 | ✅ |
+| <img src="https://cdn.simpleicons.org/juejin/1E80FF" alt="掘金" width="20" height="20"/> 掘金 | 文章 | ✅ |
 
 more and more...
 
@@ -84,6 +85,7 @@ social-push/
     ├── 小红书图文.md            # 小红书图文发布流程
     ├── 小红书长文.md            # 小红书长文发布流程
     ├── X推文.md                 # X/Twitter推文发布流程
+    ├── 掘金文章.md              # 掘金文章发布流程
     └── more...                  # 未来可添加更多平台
 ```
 
