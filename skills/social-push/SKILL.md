@@ -56,3 +56,6 @@ allowed-tools: Bash(agent-browser:*), Bash(jq:*), Bash(osascript:*) ,Read
 
 ## 掘金
 - `掘金文章` ：查看[掘金文章](./references/掘金文章.md)发布掘金文章并自动保存草稿的 workflow
+
+## Linux.do
+- `LinuxDo发帖` ：查看[LinuxDo发帖](./references/LinuxDo发帖.md)发布帖子（含类别与标签选择）的 workflow
