@@ -59,6 +59,7 @@ npm install -g agent-browser # agent-browser CLI tool
 npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser # 安装 agent-browser skill
 agent-browser install  # Download Chromium
 ```
+3. 允许远程调试功能，在 chrome的地址栏输入 `chrome://inspect/#remote-debugging`，打开 `Allow remote debugging for this browser instance`
 
 ### 安装 Skill
 
