@@ -25,7 +25,7 @@ Communicates with Claude Code to understand user needs and dynamically generate 
 - 🔐 **Auto-Save Login State** - Uses `--state` parameter to persist sessions, login once and use forever
 - 👀 **Visual Operation** - Browser visible to users (`--headed` mode), easy debugging and monitoring
 - 🛡️ **Safe Design** - Only saves drafts, never auto-publishes, user confirms final posting
-- 🎯 **Multi-Platform Support** - Supports Xiaohongshu (images/articles), X/Twitter, easily extensible
+- 🎯 **Multi-Platform Support** - Supports Xiaohongshu (images/articles), X/Twitter, Bilibili, YouTube, easily extensible
 
 
 ## 🌐 Supported Platforms
@@ -37,6 +37,8 @@ Add a new platform in one sentence
 | Xiaohongshu | Image Post | ✅ |
 | Xiaohongshu | Article | ✅ |
 | X (Twitter) | Tweet | ✅ |
+| Bilibili | Video Upload | ✅ |
+| YouTube | Video Upload | ✅ |
 
 more and more...
 
@@ -81,6 +83,8 @@ social-push/
     ├── 小红书图文.md            # Xiaohongshu image post workflow
     ├── 小红书长文.md            # Xiaohongshu article workflow
     ├── X推文.md                 # X/Twitter tweet workflow
+    ├── Bilibili视频投稿.md       # Bilibili video upload workflow
+    ├── YouTube视频上传.md        # YouTube video upload workflow
     └── more...                  # More platforms to be added
 ```
 

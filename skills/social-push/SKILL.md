@@ -1,6 +1,6 @@
 ---
 name: social-push
-description: 使用 agent-browser 帮用户将内容发到社交媒体上。当用户需要发布内容、推送文章、上传文章、发帖到社交平台时使用此 skill。
+description: 使用 agent-browser 帮用户将内容发到社交媒体上。当用户需要发布内容、推送文章、上传文章、上传视频、发帖到社交平台时使用此 skill。
 disable-model-invocation: false
 allowed-tools: Bash(agent-browser:*), Bash(jq:*), Bash(osascript:*) ,Read
 ---
@@ -60,3 +60,9 @@ allowed-tools: Bash(agent-browser:*), Bash(jq:*), Bash(osascript:*) ,Read
 
 ## Linux.do
 - `LinuxDo发帖` ：查看[LinuxDo发帖](./references/LinuxDo发帖.md)发布帖子（含类别与标签选择）的 workflow
+
+## Bilibili
+- `Bilibili视频投稿` ：查看[Bilibili视频投稿](./references/Bilibili视频投稿.md)上传 B 站视频并停留待确认投稿状态的 workflow
+
+## YouTube
+- `YouTube视频上传` ：查看[YouTube视频上传](./references/YouTube视频上传.md)上传 YouTube 视频并停留待确认发布状态的 workflow
